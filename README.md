@@ -16,28 +16,45 @@ The app is a responsive online store for mobile phones, including product browsi
 --------------------------------------------------
 📂 Project Structure
 --------------------------------------------------
-pulse-mobile-store/
+**React_Web_Store/**
 │
+
 ├── client/                        # React frontend
+
 │   ├── src/
+
 │   │   ├── components/
+
 │   │   │   ├── ProductContainer.jsx
+
 │   │   │   ├── Cart.jsx
+
 │   │   │   ├── CheckOutContainer.jsx
+
 │   │   │   ├── CheckOut.jsx
+
 │   │   │   └── About.jsx
+
 │   │   ├── App.jsx
+
 │   │   └── index.js
+
 │   └── package.json
+
 │
+
 ├── server/                        # Node.js + Express backend
+
 │   ├── models/                    # Database models (MongoDB / MySQL)
+
 │   ├── routes/                     # API endpoints (products, orders, etc.)
+
 │   ├── app.js
+
 │   └── package.json
 │
-├── .env.example                   # Example environment variables
-├── requirements.txt (if using Python parts)
+
+
 └── README.txt
 
 --------------------------------------------------
